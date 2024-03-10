@@ -1,0 +1,24 @@
+using System;
+using System.Net;
+using System.Runtime.Intrinsics.Arm;
+
+public class Noname
+{
+    public static void Main()
+    {
+        Console.WriteLine("Тiевський Михйало КIб-1-23-4.0д");
+        Console.WriteLine("Enter # of computers in class 1:");
+        double Cl1 = Convert.ToDouble(Console.ReadLine());
+        Console.WriteLine("Enter # of computers in class 2:");
+        double Cl2 = Convert.ToDouble(Console.ReadLine());
+        Console.WriteLine("September:  Class 1: "+Cl1+" Class 2: "+Cl2);
+        double X = Cl1;
+        Cl1 = Cl2;
+        Cl2 = X;
+
+        Console.WriteLine("October:    Class 1: " + Cl1 + " Class 2: " + Cl2);
+        Cl1 += 3;
+        Cl2 -= 2;
+        Console.WriteLine("December:   Class 1: " + Cl1+ " Class 2: " +Cl2);
+    }
+}
