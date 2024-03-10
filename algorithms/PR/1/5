@@ -6,7 +6,7 @@ public class Noname
 {
     public static void Main()
     {
-        Console.WriteLine("Тiевський Михйало КIб-1-23-4.0д");
+        Console.WriteLine("Тiшевський Михйало КIб-1-23-4.0д");
         Console.WriteLine("Enter variable a:");
         double a = Convert.ToDouble(Console.ReadLine());
         Console.WriteLine("Enter variable b:");
