@@ -1,0 +1,17 @@
+using System;
+
+public class Noname
+{
+    public static void Main()
+    {
+        Console.WriteLine("Тiевський Михйало КIб-1-23-4.0д");
+        Console.WriteLine("Enter value for a:");
+        double a = double.Parse(Console.ReadLine());
+        double x = 12.5 * a;
+        double y = 8.5 * x + ((9 + 3 * a) / (a + 1));
+        double sqrty = Math.Sqrt(y);
+        double xtoa = Math.Pow(x, a);
+
+        Console.WriteLine("a = "+a+", x = "+x+", y = "+y+", sqrty = "+sqrty+", xtoa = "+xtoa);
+    }
+}
