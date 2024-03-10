@@ -4,7 +4,7 @@ public class Noname
 {
     public static void Main()
     {
-        Console.WriteLine("Тiевський Михйало КIб-1-23-4.0д");
+        Console.WriteLine("Тiшевський Михйало КIб-1-23-4.0д");
         Console.WriteLine("Enter time in minutes:");
         double min = Convert.ToDouble(Console.ReadLine());
         double hour = Math.Truncate(min / 60);
