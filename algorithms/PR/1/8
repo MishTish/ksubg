@@ -1,0 +1,20 @@
+using System;
+using System.Diagnostics;
+using System.Net;
+using System.Runtime.Intrinsics.Arm;
+
+public class Noname
+{
+    public static void Main()
+    {
+        Console.WriteLine("Тiшевський Михйало КIб-1-23-4.0д");
+        Console.WriteLine("Enter value of required cash:");
+        double val = Convert.ToDouble(Console.ReadLine());
+        double fifty = Math.Truncate(val / 50);
+        double twenty = Math.Truncate((val - fifty * 50) / 20);
+        double ten = Math.Truncate((val - fifty * 50 - twenty * 20) / 10);
+        double five = Math.Truncate((val - fifty * 50 - twenty * 20 - ten * 10) / 5);
+        double one = Math.Truncate((val - fifty * 50 - twenty * 20 - ten * 10 - five * 5) / 1);
+        Console.WriteLine("50 = {0}, 20 = {1}, 10 = {2}, 5 = {3}, 1 = {4}", fifty, twenty, ten, five, one);
+    }
+}
