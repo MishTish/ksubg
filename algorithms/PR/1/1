@@ -4,7 +4,7 @@ public class Noname
 {
     public static void Main()
     {
-        Console.WriteLine("Тiевський Михйало КIб-1-23-4.0д");
+        Console.WriteLine("Тiшевський Михйало КIб-1-23-4.0д");
         Console.WriteLine("Enter value for a:");
         double a = double.Parse(Console.ReadLine());
         double x = 12.5 * a;
