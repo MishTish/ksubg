@@ -30,6 +30,8 @@ while (loop1)
     }
 }
 User someUser = new User(userLogin, userFirstName, userLastname, userAge);
+
+Console.WriteLine("\nAccount succesfully created!\n");
 Console.WriteLine("\nACCOUNT INFO:\n");
 someUser.Display();
 
